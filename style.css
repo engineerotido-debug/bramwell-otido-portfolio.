@@ -411,3 +411,70 @@ button.clicked,
 .btn.clicked {
     transform: scale(0.92);
 }
+
+/* CONTACT PAGE */
+
+.contact-container {
+    max-width: 600px;
+    margin: 35px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.contact-container h2 {
+    text-align: center;
+    color: #123456;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-container textarea {
+    height: 120px;
+}
+
+.social-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 12px 18px;
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.facebook {
+    background: #1877F2;
+}
+
+.contact-container button {
+    width: 100%;
+    padding: 14px;
+    background: #123456;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-container button:hover {
+    background: #2563eb;
+}
