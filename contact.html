@@ -1,54 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Bramwel Otido</title>
+    <title>Contact Us | Bramwell Otido</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
-    <nav class="navbar">
-        <h2 class="logo">BRAMWEL.DEV</h2>
-
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <h1>Contact Us</h1>
+    <p>We would love to hear from you!</p>
 </header>
 
-<section class="contact">
-    <h1>Contact <span>Me</span></h1>
-    <p>Let's connect and build something amazing together.</p>
-    <p>
-  <a href="https://www.facebook.com/profile.php?id=100095024531473" target="_blank">
-    📘 Follow me on Facebook
-  </a>
-</p>
-    <div class="contact-box">
-        <form id="contact-form">
+<main class="contact-container">
 
-            <input type="text" placeholder="Your Name" required>
+    <h2>Get In Touch</h2>
 
-            <input type="email" placeholder="Your Email" required>
+    <p>Have a question, suggestion or need assistance?
+       Send us a message.</p>
 
-            <input type="text" placeholder="Subject" required>
+    <div class="social-links">
+        <a class="whatsapp"
+           href="https://wa.me/254745061120"
+           target="_blank">WhatsApp Us</a>
 
-            <textarea placeholder="Write your message..." required></textarea>
-
-            <button type="submit" class="send-btn">
-                Send Message
-            </button>
-
-        </form>
+        <a class="facebook"
+           href="https://www.facebook.com/profile.php?id=100095024531473"
+           target="_blank">Facebook</a>
     </div>
-</section>
 
-<script src="script.js"></script>
+    <h2>Send Us a Message</h2>
+
+    <form action="https://formsubmit.co/YOUR_EMAIL@example.com"
+          method="POST">
+
+        <input type="text" name="name"
+               placeholder="Enter your name" required>
+
+        <input type="email" name="email"
+               placeholder="Enter your email" required>
+
+        <textarea name="message"
+                  placeholder="Write your message here..."
+                  required></textarea>
+
+        <input type="hidden" name="_subject"
+               value="New Website Contact Message">
+
+        <button type="submit">Submit Message</button>
+    </form>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Bramwell Otido. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
